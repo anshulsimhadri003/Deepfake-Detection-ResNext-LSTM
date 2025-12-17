@@ -1,4 +1,4 @@
-# Detection of Deepfake Videos 🛡️
+# Detection of Deepfake Videos
 
 A B.Tech final year project that identifies manipulated media by analyzing spatial inconsistencies (ResNext) and temporal flickers (LSTM).
 
