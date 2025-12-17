@@ -1,0 +1,8 @@
+torch
+torchvision
+opencv-python
+face_recognition
+gradio
+scikit-learn
+pandas
+numpy
