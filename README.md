@@ -1,19 +1,25 @@
-# Detection of Deepfake Videos
+Project Title: Detection of Deepfake Videos using ResNext-LSTM.
 
-A B.Tech final year project that identifies manipulated media by analyzing spatial inconsistencies (ResNext) and temporal flickers (LSTM).
 
-## 🚀 Key Features
-- **Hybrid Architecture:** Combines ResNext-50 for frame analysis and LSTM for sequence analysis.
-- **Web UI:** Integrated Gradio interface for easy video testing.
-- **High Accuracy:** Optimized on the Celeb-DF dataset.
+Project Overview: A brief summary explaining that the system detects facial manipulations by analyzing both spatial artifacts and temporal inconsistencies.
 
-## 🛠️ Tech Stack
-- **Language:** Python
-- **DL Framework:** PyTorch
-- **Computer Vision:** OpenCV, Face_Recognition
-- **Interface:** Gradio
+Key Methodology:
 
-## 📊 Methodology
-1. **Preprocessing:** Extracting 20 frames per video using OpenCV.
-2. **Face Detection:** Isolating facial regions for focused analysis.
-3. **Classification:** Passing sequences through the ResNext+LSTM layers.
+
+Preprocessing: Video frame extraction (20 frames per sequence) and face centering using face_recognition.
++1
+
+
+Architecture: A hybrid model using ResNext-50 for spatial feature extraction and LSTM for temporal sequence analysis.
+
+
+Results: Mention your accuracy (e.g., 88%) and include a screenshot of your Confusion Matrix or ROC Curve from your report to provide visual proof.
++1
+
+How to Run: Simple 3-step instructions:
+
+git clone [your-repo-link]
+
+pip install -r requirements.txt
+
+python app.py
