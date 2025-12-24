@@ -1,7 +1,7 @@
-Detection of Deepfake Videos 🛡️
+# Detection of Deepfake Videos 🛡️
 This project implements a robust deep learning system designed to identify manipulated facial media. By utilizing a hybrid ResNext-LSTM architecture, the system analyzes both spatial artifacts within individual frames and temporal inconsistencies across video sequences to distinguish between real and deepfake content.
 
-🚀 Overview
+# 🚀 Overview
 As AI-generated misinformation becomes more sophisticated, traditional detection methods often fail. This project addresses the challenge by:
 
 
@@ -13,7 +13,7 @@ Temporal Analysis: Employing LSTM (Long Short-Term Memory) layers to identify un
 
 Deployment: Providing a user-friendly web interface via Gradio for real-time video testing.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Deep Learning Framework: PyTorch 
 
@@ -29,7 +29,7 @@ Web Interface: Gradio
 
 Environment: Python 3.x 
 
-📊 Methodology
+# 📊 Methodology
 
 Preprocessing: Videos are processed to extract a sequence of 20 frames.
 
@@ -45,7 +45,7 @@ Sequence Processing: The vectors are fed into an LSTM network to evaluate the co
 
 Classification: The final layer outputs a probability score indicating whether the video is "Real" or "Fake".
 
-📈 Performance & Results
+# 📈 Performance & Results
 
 Dataset: Benchmarked on the Celeb-DF dataset.
 
@@ -55,7 +55,7 @@ Accuracy: Achieved a detection accuracy of approximately 88% on the validation s
 
 Confusion Matrix: The model demonstrates high precision in identifying deepfakes, effectively minimizing false negatives.
 
-⚙️ Installation & Usage
+# ⚙️ Installation & Usage
 1. Clone the repository
 Bash
 
@@ -74,7 +74,7 @@ Bash
 
 python app.py
 
-👥 Credits
+# 👥 Credits
 Project Members:
 
 Agasthya T 
@@ -89,5 +89,5 @@ Under the Guidance of:
 
 Dr. V Sangeeta, Associate Professor, Department of CSE, GITAM School of Technology.
 
-📜 License
+# 📜 License
 This project is released under the MIT License. See the LICENSE file for more details.
