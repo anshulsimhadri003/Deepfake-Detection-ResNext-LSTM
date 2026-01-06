@@ -1,9 +1,11 @@
-torch
-torchvision
+torch>=2.0.0
+torchvision>=0.15.0
 opencv-python
-face_recognition
-gradio
-scikit-learn
-pandas
 numpy
+pandas
 matplotlib
+face_recognition
+scikit-learn
+gradio
+seaborn
+ipdb
