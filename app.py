@@ -626,4 +626,4 @@ iface = gr.Interface(
     description="Upload a video to check if it's real or deepfake."
 )
 
-iface.launch(debug=True)
+iface.launch(share=True)
